@@ -1,0 +1,127 @@
+*{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #ededed;
+    background: #081b29;
+}
+
+.header{
+    position: fixed;
+    background: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ededed;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .3s;
+    z-index: 101;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color:#00abf0;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: #081b29;
+    text-align: center;
+}
+
+.home-content{
+    max-width: 1100px;
+
+}
+
+.home-content h2{
+    position: relative;
+    font-size: 49px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.home-content p{
+    position: relative;
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+/*KEYFREAME ANIMATION*/
+
+@media screen and (max-width:767px){
+    .logo{
+        position: relative;
+        font-size: 12px;
+        color: #ededed;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .navbar a{
+        font-size: 7px;
+        text-decoration: none;
+        color: #ededed;
+        font-weight: 500;
+        margin-left: 20px;
+        transition: .3s;
+        z-index: 101;
+    }
+
+    .home-content h1{
+        position: relative;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    
+    .home-content h3{
+        position: relative;
+        font-size: 22px;
+        font-weight: 700;
+        color: #00abf0;
+    }
+
+    
+.home-content p{
+    position: relative;
+    font-size: 12px;
+    margin: 20px 0 40px;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: #081b29
+}
+
+    
+}
