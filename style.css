@@ -228,3 +228,56 @@ body{
         width: 0;
     }
 }
+
+@media screen and (max-width:767px){
+    .logo{
+        position: relative;
+        font-size: 15px;
+        color: #ededed;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .navbar a{
+        font-size: 8.5px;
+        text-decoration: none;
+        color: #ededed;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: .3s;
+        z-index: 101;
+    }
+
+    .home-content h1{
+        position: relative;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    
+    .home-content h3{
+        position: relative;
+        font-size: 22px;
+        font-weight: 700;
+        color: #00abf0;
+    }
+
+    
+.home-content p{
+    position: relative;
+    font-size: 12px;
+    margin: 20px 0 40px;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: url('./phone.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+    
+}
